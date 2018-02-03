@@ -23,18 +23,16 @@ header {
 	line-height: 36.81px;
 }
 .header-button {
+	display: inline-block;
+	text-decoration: none;
 	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
 	border-radius: 50px;
 	background-color: #ffffff;
 	color: #072b6f;
-	font-size: 18px;
 	font-weight: 700;
 	padding: 15px 55px;
 	margin-top: 15px;
-	border: none;
-	width: 200px;
-	height: 50px;
-	cursor: pointer;
+
 }
 small {
 		font-size: 12px;
@@ -43,7 +41,7 @@ small {
 		margin-top: 9px;
 }
 .header-button-block {
-	max-width: 210px;
+	max-width: 200px;
 }
 .portfolio {
 	background-color: #dddddd;
@@ -122,14 +120,13 @@ footer {
 	background-color: #3a7dfd;
 	color: #deedfe;
 	padding: 35px 0 85px;
-
 }
 .footer-title {
 	color: #fefefe;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 40px;
-	margin-bottom: -35px;
+	margin-bottom: -30px;
 }
 .footer-subtitle {
 	font-weight: 400;
@@ -142,23 +139,19 @@ footer {
 	margin: 0 13px;
 }
 .footer-cta {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .footer-button {
   border-radius: 50px;
   border: 1px solid #ffffff;
   background-color: transparent;
   color: #deedfe;
-  font-size: 18px;
-  width: 165px;
-  height: 48px;
-  padding: 5px 42px 8px 42px;
-  cursor: pointer;
+  padding: 11px 42px 15px 42px;
+  text-decoration: none;
 }
 .footer-cta-block {
 	padding-left: 80px;
 }
-
 
 
 @media  (max-width: 1200px) {
@@ -174,12 +167,10 @@ footer {
 	}
 	.header-button {
 		font-size: 16px;
-    width: 160px;
-    height: 45px;
-    padding: 0;
+    padding: 13px 45px;
 	}
 	.header-button-block {
-		max-width: 118px;
+		max-width: 120px;
 	}
 	small {
 		font-size: 10px;
@@ -220,12 +211,6 @@ footer {
 	.social-block img {
 		width: 35px;
 	}
-	.footer-button {
-		font-size: 15px;
-    width: 133px;
-    height: 40px;
-    padding-left: 33px;
-	}
 }
 
 @media (max-width: 768px) {
@@ -247,12 +232,11 @@ footer {
 		padding: 0 0 50px;
 	}
 	.social-block p {
-		margin: 0 0 10px;
+		margin: 0 0 5px;
 	}
 		.footer-cta-block {
     padding: 0;
     margin-top: 25px;
 	}
-
 }
 
